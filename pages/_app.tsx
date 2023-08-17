@@ -380,7 +380,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
             // component="a"
             // href="/#"
             variant="h6"
-          >{`< Bhavya />`}</Typography>
+          >{`< Sanjay />`}</Typography>
           {/* </Link> */}
           <div className={classes.navbarRight}>
             <Hidden mdDown>

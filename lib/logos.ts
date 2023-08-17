@@ -22,10 +22,17 @@ type logoNames =
   | "redux"
   | "sass"
   | "bash"
+  | "hook-form"
+  | "formik"
+  | "axios"
   | "reactSpring"
   | "framerMotion"
   | "trpc"
   | "cypress"
+  | "tailwind"
+  | "firebase"
+  | "styled"
+  | "formik"
   | "reactQuery";
 
 type Logos = {
@@ -158,6 +165,30 @@ const logos: Logos = {
   reactQuery: {
     label: "React Query",
     logo: "/assets/icons/react-query.svg",
+  },
+  tailwind: {
+    label: "Tailwind",
+    logo: "/assets/icons/tailwindcss.svg",
+  },
+  firebase: {
+    label: "Firebase",
+    logo: "/assets/icons/firebase.svg",
+  },
+  styled: {
+    label: "Styled-component",
+    logo: "/assets/icons/styled-component.svg",
+  },
+  axios: {
+    label: "Axios",
+    logo: "/assets/icons/axios.svg",
+  },
+  formik: {
+    label: "Formik",
+    logo: "/assets/icons/formik.svg",
+  },
+  "hook-form": {
+    label: "React-hook-form",
+    logo: "/assets/icons/hook-form.svg",
   },
 };
 
