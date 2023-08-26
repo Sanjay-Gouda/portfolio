@@ -13,7 +13,7 @@ const Blog = () => {
         <img
           alt="About Nxt.tech"
           src="/assets/svgs/about.svg"
-          className="w-11/12 mx-auto mb-24"
+          className="w-11/12 mx-auto mb-20"
         />
         {BlogArticle.map(({ title, article }, index) => (
           <article className="my-8" key={index}>
