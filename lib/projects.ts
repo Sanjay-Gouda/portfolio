@@ -38,9 +38,11 @@ const projects: Projects = {
   devGram: {
     title: "My-Youtube",
     description: [
-      "A social networking twitter like web app. Users can **create** posts, **like** posts and **comment** on posts.",
-      "User can visit any **user profile** by clicking at their name or avatar to view posts by them.",
-      "End-to-End typesafe code",
+      "Developed a full-fledged YouTube web application replicating the original YouTube experience",
+      "Employed Tailwind CSS to achieve a modern and visually appealing design, enhancing user engagement",
+      "Integrated the YouTube **Live API** to showcase trending videos, providing users with real-time popular content",
+      "Implemented **debouncing** techniques for the search functionality, optimizing API calls and improving search responsiveness",
+      "Incorporated an iframe container to seamlessly play videos, enhancing the overall user experience.",
     ],
     images: {
       main: {
@@ -67,10 +69,11 @@ const projects: Projects = {
   dogmash: {
     title: "Cloth-Fashion",
     description: [
-      "**Upload**, **view** and **vote** for the cutest dogs, Dogmash project is inspired by Mark Zuckerberg's infamous website **facemash.**",
-      "This was my first big **fullstack** project made using **node.js** with **express.js** and styled using **Bootstrap**. Users can upload their dog pics to the website without any registration which will only be made public once the admin logs in and approve the uploaded image. Yes this project has an **Admin panel** built into it to ensure images are appropriate.",
-      "Uploaded images are stored on **amazon s3 bucket**, uploaded using **presigned URL** straight from browser to s3 bucket.",
-      "This project also has **rate limiting** to avoid spam and uses **CSRF token** protection.",
+      "Developed a user-friendly e-commerce application with static product data, enabling users to easily browse and add items to their cart",
+      "Utilized **React** and **Redux** for efficient state management, ensuring seamless updates and consistent user experience throughout the app",
+      "Integrated **Firebase** for secure user **authentication**, enhancing the app's reliability and enabling personalized experiences",
+      "Implemented **Stripe payment gateway** to enable secure and convenient online payments, ensuring a smooth checkout process",
+      "Incorporated **SCSS** for styling, resulting in visually appealing interfaces that enhance user engagement and navigation",
     ],
     images: {
       main: {
@@ -88,11 +91,9 @@ const projects: Projects = {
   covid19: {
     title: "My Todo App",
     description: [
-      "Covid-19 tracker for India made using **React.**",
-      "This web app can be used to track current and historical data of India and its states and union territories. The web app shows a vector **map of India**, user may hover over any state and will be able to see the total confirmed, recovered, active and deceased for that state.",
-      "There is also a state-wise table of covid data which can be sorted by any column.",
-      "The app also features historical data using **charts** made using **[chartjs](https://www.chartjs.com)**, user may view data of any state and also choose the time frame and option between **daily** and **cumulative** data.",
-      "The application is styled using **material-ui** and is fully responsive for all screen sizes and has a **dark mode** toggle. ",
+      "Developed a functional Todo App using **React and Redux**, offering users the ability to effortlessly manage tasks with CRUD operations",
+      "Utilized Redux for efficient state management, ensuring smooth updates and maintaining a consistent task list across the application",
+      "Integrated **Tailwind** CSS to style the app, resulting in a clean and intuitive user interface that enhances the user experience",
     ],
     images: {
       main: {
@@ -110,11 +111,15 @@ const projects: Projects = {
   connect4: {
     title: "NXT-Tech",
     description: [
-      "Connect-4 board game that allows you to **play with anyone around the world** with no registration or downloads. You and your friend just need to open the link in the browser and you're ready to play 🙂",
-      "The frontend is built using **React** and styled using **material-ui** and backend built using **node.js**.",
-      "**socket.io** library is used for live transfer of data from client to server using websockets.",
-      "The app supports multiple games running parallel, means multiple pair of people can play on the same website at the same time without any interference.",
-      "If you wish to test this project, you must run the url on different browsers, or better check my **[video explaining how it works](https://www.linkedin.com/posts/bhavya-tomar_careerhack-github-hackathon-activity-6760854974944694272-aEDM)** that I posted on LinkedIn.",
+      "Led the development of an interactive invitation-based website for a virtual college tech event",
+
+      "Organized a successful tech event that required participants to register on the site to obtain an event ticket",
+
+      "Integrated **Firebase** authentication to ensure secure participant sign-ups and personalized experiences",
+
+      "Leveraged **React** to create dynamic and engaging user interfaces, enhancing the event's online presence",
+
+      "Utilized **Tailwind** CSS for styling, resulting in a modern and visually appealing design that captured participants' interest.      ",
     ],
     stack: [logos.firebase, logos.react, logos.tailwind, logos.redux],
     links: {
@@ -132,19 +137,18 @@ const projects: Projects = {
   getItDone: {
     title: "SVM-Developer",
     description: [
-      "Goal tracker app made with my friend for a **hackthon that we won.**",
-      "The challenge for the hackathon was to make a **CRUDy** web application for goal management.",
-      "The application is made using **React** and styled using **material-ui.**",
-      "Features of the app are **create, update, edit and delete** goals. Add **labels** to goal, Start a **timer to track** the time spent for goal, **timer keeps running even when the window is closed!**",
-      "**Filter** goals by hashtag and/or text, **sort** goals by time spent per goal.",
-      "View a **Bar graph** that displays the amount of time spent per goal.",
-      "Check this video made by my hackathon partner **Priya Aswani** **[explaining how it works](https://www.linkedin.com/posts/activity-6755554068011319296-VlpE)**",
+      "Spearheaded the creation of a comprehensive real estate dashboard catering to multiple functionalities, including booking management, project tracking, user data administration, and more.",
+      "Employed **Next.js** with **server-side rendering (SSR)** to ensure optimal performance and **SEO-friendly** content, enhancing the user experience",
+      "Integrated a **REST API** to seamlessly fetch and manage real estate data, facilitating smooth communication between the frontend and backend.",
+      "Implemented **private routing** using **Next.js Middleware**, ensuring secure access to sensitive data and features",
+      "Utilized **debouncing** techniques to **optimize** data search functionality, improving the dashboard's responsiveness.",
+      "Leveraged Tailwind CSS components to design visually appealing interfaces, creating an intuitive and modern user experience",
     ],
     links: {
       github: "https://github.com/BhavyaCodes/get-it-done",
       live: "https://get-it-done-git-master-juggernaut9.vercel.app",
     },
-    stack: [logos.react, logos.chartjs, logos.materialui, logos.vercel],
+    stack: [logos.nextjs, logos.chartjs, logos.tailwind, logos.vercel],
     images: {
       main: {
         link: "/assets/dashboard.jpg",

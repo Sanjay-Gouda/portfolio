@@ -32,7 +32,7 @@ function Buttons() {
     <>
       <Box mx={-1}>
         <Link
-          href="https://github.com/BhavyaCodes"
+          href="https://github.com/Sanjay-unifarm"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
@@ -47,7 +47,7 @@ function Buttons() {
           </IconButton>
         </Link>
         <Link
-          href="https://www.linkedin.com/in/bhavya-tomar/"
+          href="https://www.linkedin.com/in/sanjaykumar-gouda-141b271a4/"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
@@ -62,7 +62,7 @@ function Buttons() {
           </IconButton>
         </Link>
         <Link
-          href="https://twitter.com/bhavyacodes"
+          href="https://twitter.com/Sanjay_Gouda_13"
           target="_blank"
           rel="noopener noreferrer"
           color="inherit"
@@ -92,7 +92,7 @@ function Buttons() {
         >
           Get in touch
         </Button>
-        <NextLink href="/projects">
+        {/* <NextLink href="/projects">
           <Button
             component="a"
             variant="outlined"
@@ -103,7 +103,7 @@ function Buttons() {
           >
             See my work
           </Button>
-        </NextLink>
+        </NextLink> */}
       </Box>
     </>
   );

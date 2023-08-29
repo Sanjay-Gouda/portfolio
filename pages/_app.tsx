@@ -237,9 +237,9 @@ export function MyApp({ Component, pageProps }: AppProps) {
         <SideBarButton text="My Toolbelt" name="skills">
           <BuildIcon />
         </SideBarButton>
-        <SideBarButton text="Featured Projects" name="projects">
+        {/* <SideBarButton text="Featured Projects" name="projects">
           <CodeIcon />
-        </SideBarButton>
+        </SideBarButton> */}
         <Link href="/projects" passHref>
           <ListItem button component="a" href="/projects">
             <ListItemIcon>
@@ -388,7 +388,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
                 {NavBarButton("Home", "home")}
                 {NavBarButton("Tools and skills", "skills")}
                 {NavBarButton("Featured Projects", "projects")}
-                <Link href="/projects" passHref>
+                {/* <Link href="/projects" passHref>
                   <Button
                     className={classes.navbarRightButtons}
                     component="a"
@@ -397,7 +397,7 @@ export function MyApp({ Component, pageProps }: AppProps) {
                   >
                     all projects
                   </Button>
-                </Link>
+                </Link> */}
                 {NavBarButton("Contact me", "contact")}
               </Box>
             </Hidden>

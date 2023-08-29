@@ -164,7 +164,7 @@ function Footer() {
                 <Grid item md={6} sm={6} className={classes.iconsGrid}>
                   <Link
                     className={classes.socialItem}
-                    href="https://github.com/BhavyaCodes"
+                    href="https://github.com/Sanjay-unifarm"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
@@ -176,7 +176,7 @@ function Footer() {
 
                   <Link
                     className={classes.socialItem}
-                    href="https://www.linkedin.com/in/bhavya-tomar/"
+                    href="https://www.linkedin.com/in/sanjaykumar-gouda-141b271a4/"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
@@ -188,7 +188,7 @@ function Footer() {
 
                   <Link
                     className={classes.socialItem}
-                    href="https://twitter.com/bhavyacodes"
+                    href="https://twitter.com/Sanjay_Gouda_13"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
@@ -200,13 +200,13 @@ function Footer() {
 
                   <Link
                     className={classes.socialItem}
-                    href="mailto:xbhavyatomar@gmail.com"
+                    href="mailto:sanjayoffical755@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     color="inherit"
                   >
                     <MailIcon fontSize="large" className={classes.icon} />
-                    <Typography>xbhavatomar@gmail.com</Typography>
+                    <Typography>sanjayoffical755@gmail.com</Typography>
                   </Link>
                 </Grid>
 

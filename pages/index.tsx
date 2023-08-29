@@ -40,7 +40,7 @@ const IndexPage = () => {
           <Skills />
           <ProjectsTitle text={"Featured Projects"} />
           <Projects projects={projects} />
-          <AllProjectsButton />
+          {/* <AllProjectsButton /> */}
           <Footer />
         </>
       </motion.div>
