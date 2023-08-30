@@ -1,16 +1,16 @@
 import logos from "./logos";
 
-type ProjectName =
-  | "devGram"
-  | "dogmash"
-  | "covid19"
-  | "connect4"
-  | "getItDone"
-  | "urlShortener"
-  | "thisWebsite"
-  | "theMealHub"
-  | "pokemon"
-  | "jokes";
+// type ProjectName =
+//   | "devGram"
+//   | "dogmash"
+//   | "covid19"
+//   | "connect4"
+//   | "getItDone"
+//   | "urlShortener"
+//   | "thisWebsite"
+//   | "theMealHub"
+//   | "pokemon"
+//   | "jokes";
 
 export type StackType = { label: string; logo: string; invert?: boolean };
 
@@ -30,11 +30,11 @@ export type ProjectType = {
   special?: { text: string; link: string };
 };
 
-type Projects = {
-  [K in ProjectName]: ProjectType;
-};
+// type Projects = {
+//   [K in ProjectName]: ProjectType;
+// };
 
-const projects: Projects = {
+const projects: any = {
   devGram: {
     title: "My-Youtube",
     description: [
@@ -61,8 +61,8 @@ const projects: Projects = {
       // logos.materialui,
     ],
     links: {
-      live: "https://devgram-v2.vercel.app",
-      github: "https://github.com/BhavyaCodes/devgram-v2",
+      live: "https://sanjays-youtube.netlify.app/",
+      github: "https://github.com/Sanjay-unifarm/Sanjay-s-Youtube",
     },
   },
 
@@ -84,7 +84,7 @@ const projects: Projects = {
     },
     stack: [logos.react, logos.tailwind, logos.firebase, logos.redux],
     links: {
-      live: "https://dogmash.herokuapp.com/",
+      live: "https://wearable-fashion.netlify.app/",
     },
   },
 
@@ -104,8 +104,8 @@ const projects: Projects = {
     },
     stack: [logos.react, logos.tailwind, logos.redux],
     links: {
-      github: "https://github.com/BhavyaCodes/covid-tracker-material-ui-react",
-      live: "https://covid-tracker-beta.vercel.app/",
+      github: "https://github.com/Sanjay-Gouda/My-ToDo-App",
+      // live: "https://covid-tracker-beta.vercel.app/",
     },
   },
   connect4: {
@@ -123,8 +123,8 @@ const projects: Projects = {
     ],
     stack: [logos.firebase, logos.react, logos.tailwind, logos.redux],
     links: {
-      github: "https://github.com/BhavyaCodes/connect-4-online-multiplayer",
-      live: "https://konnect-4.vercel.app/",
+      github: "https://github.com/Sanjay-Gouda/tech-event-invitation",
+      live: "https://nxt-tech-event.netlify.app/",
     },
     images: {
       main: {
@@ -145,8 +145,8 @@ const projects: Projects = {
       "Leveraged Tailwind CSS components to design visually appealing interfaces, creating an intuitive and modern user experience",
     ],
     links: {
-      github: "https://github.com/BhavyaCodes/get-it-done",
-      live: "https://get-it-done-git-master-juggernaut9.vercel.app",
+      // github: "https://github.com/BhavyaCodes/get-it-done",
+      // live: "https://get-it-done-git-master-juggernaut9.vercel.app",
     },
     stack: [logos.nextjs, logos.chartjs, logos.tailwind, logos.vercel],
     images: {
