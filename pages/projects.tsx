@@ -5,9 +5,9 @@ import Projects from "components/Projects";
 import ProjectsTitle from "components/Projects/ProjectsTitle";
 import BackHomeButton from "components/Projects/BackHomeButton";
 
-import allProjects, { ProjectType } from "lib/projects";
+import allProjects from "lib/projects";
 
-const projects: ProjectType[] = [
+const projects: any = [
   allProjects.devGram,
   allProjects.dogmash,
   allProjects.covid19,
