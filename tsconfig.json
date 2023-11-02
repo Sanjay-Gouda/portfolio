@@ -29,7 +29,7 @@
   "include": [
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "components/Projects/Projects.jsx"  ],
   "files": [
     "custom.d.ts"
   ]

@@ -15,7 +15,7 @@ import logos from "./logos";
 export type StackType = { label: string; logo: string; invert?: boolean };
 
 export type ProjectType = {
-  title: string;
+  title?: string;
   description: string[];
   images: {
     webm?: string;

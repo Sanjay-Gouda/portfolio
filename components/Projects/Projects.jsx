@@ -11,7 +11,7 @@ function Projects({ projects }) {
           <Project
             key={index}
             index={index + 1}
-            title={title}
+            title={title || ""}
             description={description}
             images={images}
             stack={stack}
